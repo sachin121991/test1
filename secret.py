@@ -4,19 +4,6 @@ import json
 import base64
 import boto3
 
-
-smtp_server = "smtp.gmail.com"
-smtp_port = 587
-smtp_username = "sachin@nclouds.com"
-smtp_passwword = "lmxmuaffkwdtcqtl"
-
-send_to = ['sachin.kapoor1991@gmail.com']
-cc = ['kapoor.sachin1991@gmaail.com']
-bcc = ['shivani@nclouds.com']
-send_from = "sachin@nclouds.com"
-
-
-
 def respond(err, res=None):
     return {
         'statusCode': '400' if err else '200',
