@@ -54,3 +54,11 @@ def lambda_handler(event, context):
     else:
 
         return respond(None, "Thanks for using this fucntion but event detected is diff:%s" % (nameevent))
+
+    
+    
+ {
+  "awslogs": {
+    "data": "H4sIAAAAAAAAAJVU227bOBD9lULPYUJdKFN6qjZ2ArfbJrWMtJt1YVDSyBGqW0mqbhr43zukbCfNdhebJwIzZ84Mz1wenAaUEhtY3vfgxM40WSbrd7M0TS5nzonTbVuQaA4j5kVeMAmoz9Bcd5tL2Q09epTI76qWKMglaCK2iuR1NxRaiqomiFPkaSxhge+6YVCOJKmWIJpn/OtzQ7A0BOtBERBKExfxashULqteV117UdUapHLiv538DvIvzmfLN/sGrTbWB6cqkNYPOQ8jl3qBS6kfcT+YhDRkURRMJpOAhy6NXJ+jmbqMYwnciyYMLZhNVyiMFg3+0Q1ZQMPQCxHknhwEQ/qHlQMm4w2WgkWtnHjluKeUr5yTlTMokPMCvZW+Rw9iNUpsMYlSQwPFoqvBQntZtXnVi3pejP7FVeJN/7p5c/n2dvHmQ3B1++fFdTwq/bq1+qrTvGtssJBjYnxjlD9WWsXxUz1jMaYjEvOdJR/TBWBp36BI06v1no2ooe87qdcs4wXjfkZZEZZZWJ79W9Y874ZW7wt+mu7gRpXewv3hR+n8+KMbz/vj0+z9JwtUCEPpzrtWw3c96rS3zbFskM+ke5lmvxWoEs0zgawwZnTlXpkzpbpT0YgfXYtm8+mX6vZ/RDIT8l40+5l4Kf8OGbaQzYsLKEAKsxVToYXRy7iE1rLKBg1qVBDX84AZE3rU8wgNCXWXNIgZi73w1pbVlCIZ9J2Z3BzBY/GlqBXG7XaG2w79smr+SRTGjMY+HYksLO0GmY/A8UaoRrS4PvJXfR8DjopMwax7BqkNGwXdqgVsDqt2PA7jJNlE8+ukKLCN6iDqqzlOlmxFfZQ82WCW37slfB1w66+FxCLMgTkMpKlg38ZNpe+GjOjuC7RjFzBd37UKZjU05v4grB3q+pFvPrWRWY5npMh94vquIAFnGRHZJCfYVo+WWQk8ZI867IOoLzhwryRZzjkJAjYhnLsFKVkERZF7pe+yfe2iuGprc2u0HODYpuPR2aqkr85FPX517IKp1x7NxygJuFYVmpL/nl7Lfo4DsunkvYW8O1L+stoS7BUU9YXsGlx0ZVcY8SYhKujsPu9+Ai60ULCHBgAA"
+  }
+}
